@@ -20,7 +20,6 @@ export class PipeObstacle {
     constructor(canvas, pencil) {
         this.pencil = pencil;
         this.canvas = canvas;
-
         this.height = canvas.height;
     }
 
