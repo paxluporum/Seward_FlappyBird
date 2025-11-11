@@ -6,7 +6,7 @@ import { Bird } from "./bird.js";
 
 let canvas = document.getElementById("myCanvas");
 let pencil = canvas.getContext("2d"); // This gives you the drawing context, like a pencil
-let fish1 = document.getElementById("fish1");
+// let fish1 = document.getElementById("fish1");
 
 //GAMELOOP
 function gameLoop() {

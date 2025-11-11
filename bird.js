@@ -9,20 +9,20 @@ export class Bird {
     width = 50;
     height = 50;
     canvas;
-    pencil;
-    sprite = this.fish1;
+    pencil = document.getElementById("fish1");
+    // pencil = this.fish1;
 
     ySpeed = 1;
     maximumYSpeed = 20;
 
-    constructor(canvas, sprite) {
+    constructor(canvas, pencil) {
         this.canvas = canvas;
-        this.sprite = fish1;
+        this.pencil = pencil;
     }
 
     draw() {
         
-        pencil.drawImage(this.sprite, this.x, this.y, this.width, this.height);
+        pencil.drawImage(this.pencil, this.x, this.y, this.width, this.height);
         //top pipe
         // this.sprite; // Set the fill color
         // this.sprite.fillRect(
